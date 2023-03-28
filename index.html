@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+                <div class="div1">
+                                <div class="enfant1">
+                                            <input type="text" placeholder="recherche">
+                                </div>
+                                <div class="enfant2">
+                                                <button id="btn_Enseignants">
+                                                    <div ><div class="iczei"><i class="fa-solid fa-users"></i></div> <div id="nbre_Enseig"></div></div>
+                                                   <div>Enseig. <i class="fa fa-plus"></i></div>
+                                                 
+                                                </button>
+                                                <button id="btn_Salles">
+                                                    <div ><div class="iczei"><i class="fa-solid fa-users"></i></div> <div id="nbre_Salles"> </div></div>
+                                                    <div>Salles <i class="fa fa-plus"></i></div>
+                                                  
+                                                </button>
+                                                <button id="btn_Classes">
+                                                    <div ><div class="iczei"><i class="fa-solid fa-users"></i></div> <div id="nbre_Classes"></div></div>
+                                                    <div>Classes <i class="fa fa-plus"></i></div>
+                                                  
+                                                </button>
+                                                <button id="btn_Modules">
+                                                    <div ><div class="iczei"><i class="fa-solid fa-users"></i></div> <div id="nbre_Modules"></div></div>
+                                                    <div>Modules <i class="fa fa-plus"></i></div>
+                                                  
+                                                </button>
+                                </div>
+                                <div class="enfant3">
+                                            <select name="firstSelect" id="select1">
+                                                <!-- <option value="">kana</option>
+                                                <option value="">laye</option>
+                                                <option value="">thioupourou</option> -->
+                                            </select>
+                                </div>
+                </div>
+                <div class="div2">
+                                <div class="child1">
+                                                    <div id="affiche1">
+                                                                <h1>Planning: <span class="aly"></span></h1> 
+                                                    </div>
+                                                    <div id="mode">
+                                                            <i class="fa-solid fa-circle"></i>
+                                                    </div>
+                                </div>
+                                <div class="child2">
+                                                <ul>
+                                                    <li>08H</li>
+                                                    <li>09H</li>
+                                                    <li>10H</li>
+                                                    <li>11H</li>
+                                                    <li>12H</li>
+                                                    <li>13H</li>
+                                                    <li>14H</li>
+                                                    <li>15H</li>
+                                                    <li>16H</li>
+                                                    <li>17H</li>
+                                                </ul>
+                                </div>
+                                <div class="child3">
+                                                <div class="jour">
+                                                                <div class="day1"><span>Lundi</span><i class="fa fa-plus"></i></div>
+                                                                <div class="day2">2</div>
+                                                </div>
+                                                <div class="jour">
+                                                    <div class="day1"><span>Mardi</span><i class="fa fa-plus"></i></div>
+                                                    <div class="day2">2</div>
+                                                </div>
+                                                <div class="jour">
+                                                    <div class="day1"><span>Mercredi</span><i class="fa fa-plus"></i></div>
+                                                    <div class="day2">2</div>
+                                                </div>
+                                                <div class="jour">
+                                                    <div class="day1"><span>Jeudi</span><i class="fa fa-plus"></i></div>
+                                                    <div class="day2">2</div>
+                                                </div>
+                                                <div class="jour">
+                                                    <div class="day1"><span>Vendredi</span><i class="fa fa-plus"></i></div>
+                                                    <div class="day2">2</div>
+                                                </div>
+                                                <div class="jour">
+
+                                                    <div class="day1"><span>Samedi</span><i class="fa fa-plus"></i></div>
+                                                    <div class="day2">2</div>
+                                                </div>
+                                                
+                                </div>
+                                <div class="modale">
+                                        <div class="divMod1">
+                                            <h1>Modale</h1>
+                                        </div>
+                                        <div class="divMod2">
+                                            <div><label for="modul">Choisir un module</label> <select name="modul" id="chooseModule"></select></div>
+                                            <div> <label for="profs">Choisir un un prof</label> <select name="profs" id="chooseTeacher"></select></div>
+                                            <div> <label for="salles">Choisir une salle</label> <select name="salles" id=""></select></div>
+                                            <div> <label for="classes">Choisir un module</label> <select name="classes" id=""></select></div>
+                                            <div> <label for="heuredeb">Choisir un module</label> <select name="heuredeb" id=""></select></div>
+                                            <div>  <label for="heurefin">Choisir un module</label> <select name="heurefin" id=""></select></div>
+
+
+
+
+
+
+                                        </div>
+                                        <div class="divMod3">
+                                                    <button id="ajouter">ajouter</button>
+                                                    <button id="annuler"> Annuler</button>
+                                        </div>
+                                </div>
+                </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

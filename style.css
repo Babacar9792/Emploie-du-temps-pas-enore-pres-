@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 75%;
+  border: 0.1em solid;
+  display: flex;
+  background-color: red;
+  border-radius: 1em;
+}
+
+.div1 {
+  height: 100%;
+  width: 30%;
+  border: 0.1em solid;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  gap: 1%;
+}
+.div1 .enfant1 {
+  height: 8%;
+  width: 100%;
+  border-radius: 10%;
+}
+.div1 .enfant1 input {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+.div1 .enfant2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.div1 .enfant2 button {
+  width: 45%;
+  border-radius: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 1%;
+}
+.div1 .enfant2 button div {
+  width: 90%;
+  height: 45%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.div1 .enfant2 button div div {
+  display: flex;
+  justify-content: center;
+}
+.div1 .enfant2 button div .iczei {
+  background-color: red;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.div1 .enfant3 {
+  width: 100%;
+  height: 8%;
+  border: 0.1em solid;
+  border-radius: 1em;
+}
+.div1 .enfant3 #select1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+
+.div2 {
+  height: 100%;
+  width: 70%;
+  border: 0.1em solid;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.div2 .child1 {
+  height: 20%;
+  width: 100%;
+  border: 0.1em solid;
+  border-radius: 1em;
+  display: flex;
+}
+.div2 .child1 :first-child {
+  background-color: green;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.div2 .child1 #mode {
+  background-color: yellow;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2 .child1 #mode .fa-circle {
+  background-color: white;
+  width: 40%;
+  height: 30%;
+  border-radius: 1em;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.div2 .child2 {
+  width: 100%;
+  height: 8%;
+  border-radius: 1em;
+  border: 0.1em solid;
+  padding-left: 10%;
+  font-weight: bold;
+}
+.div2 .child2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+.div2 .child2 ul li {
+  list-style: none;
+}
+.div2 .child3 {
+  width: 100%;
+  height: 72%;
+  border: 0.1em solid;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+.div2 .child3 div {
+  height: 16%;
+  width: 100%;
+  border: 0.1em solid;
+  border-radius: 1em;
+}
+.div2 .child3 .jour {
+  display: flex;
+  height: 100%;
+}
+.div2 .child3 .jour .day1 {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+}
+.div2 .child3 .jour .day1 span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.div2 .child3 .jour .day2 {
+  width: 88%;
+  height: 100%;
+  border-radius: 0;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.modale {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.modale .divMod1 {
+  width: 100%;
+  height: 15%;
+  border: 0.1em solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.modale .divMod3 {
+  width: 100%;
+  height: 20%;
+  border: 0.1em solid;
+  display: flex;
+  align-items: end;
+  background-color: black;
+  justify-content: space-evenly;
+}
+.modale .divMod3 button {
+  width: 30%;
+  padding: 0.8em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 1em;
+}
+.modale .divMod2 {
+  width: 100%;
+  height: 65%;
+  border: 0.1em solid;
+  background-color: rgba(128, 128, 128, 0.493);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+.modale .divMod2 div {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+}
+.modale .divMod2 div select {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
